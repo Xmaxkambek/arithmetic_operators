@@ -8,5 +8,5 @@ num func(int x, int c) {
 }
 
 void main() {
-  print(func(2, 4));
+  print(func(2, 6));
 }
