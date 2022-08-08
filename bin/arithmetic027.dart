@@ -1,4 +1,11 @@
 // Create function func with arguments
 // the task condition is in the Readme file
 
-void main() {}
+num func(int x) {
+  num v = (x / 3) + (2 * x);
+  return v;
+}
+
+void main() {
+  print(func(6));
+}
